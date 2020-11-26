@@ -56,14 +56,12 @@ body {
 
 .carousel
 {
-  position: relative;
-  height: 1000px;
-  box-shadow: 0 .1rem .1rem rgba(0, 0, 0, 0.9);
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 1);
 }
 
 .carousel-inner
 {
-  max-height: 100rem!important;
+  max-height: 50rem!important;
 }
 
 /*---Change Carousel Transition Speed --*/
