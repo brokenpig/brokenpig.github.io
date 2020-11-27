@@ -128,10 +128,12 @@ body {
   border: .05rem solid #7b7d7e!important;
 }
 
-
 /*===== FIXED BACKGROUND IMG =====*/
 
-
+.fixed
+{
+  background-image: url('');
+}
 
 /*-- Emoji Navbar --*/
 
@@ -139,11 +141,56 @@ body {
 
 /*============= FOOTER =============*/
 
+footer
+{
+  background-color: #918f8f;
+  padding: 1rem 2rem 3rem;
+}
 
+footer img
+{  
+  height: 4rem;
+  margin: 0rem auto;
+}
+
+footer p, footer a, 
+.socket a
+{
+  color: white;
+  text-decoration: none;
+}
+
+ul.social
+{
+  list-style-type: none;
+  display: flex;
+  max-width: 16rem;
+  margin: 0 auto;
+  padding: 0 ;
+}
+
+ul.social li
+{
+  margin: 0 auto;
+}
+
+footer .svg-inline--fa
+{
+  font-size: 2.3rem;
+}
+
+footer .svg-inline--fa:hover
+{
+  color: #5582a7;
+}
 
 /*============= SOCKET =============*/
 
-
+.socket
+{
+  background-color: #222222;
+  border-top: .1rem solid #5582a7;
+}
 
 /*============= MEDIA QUERIES =============*/
 
