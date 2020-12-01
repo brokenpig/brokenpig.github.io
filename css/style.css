@@ -257,3 +257,8 @@ Extra (xl) large devices (large desktops, 1200px and up)
   transform: translateZ(0);
   will-change: transform;
 }
+
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 2000,
+	speedAsDuration: true
+});
